@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "377267118484",
+    "project_id": "chizchat",
+    "storage_bucket": "chizchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377267118484:android:fdec23cc14652e818a2f81",
+        "android_client_info": {
+          "package_name": "com.example.chizchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377267118484-evj0fa2b6duoedd2kfvo77h5m8r9ivo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADyG6xLbJOQFGPpIrXwmHc0pnvJxfv_gw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377267118484-evj0fa2b6duoedd2kfvo77h5m8r9ivo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
