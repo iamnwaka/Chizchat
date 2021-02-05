@@ -3,7 +3,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 // import 'package:chizchat/models/user.dart';
 
 class AuthService {
-  var user = FirebaseAuth.instance.currentUser.uid;
+
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final authService = AuthService();
   final googleSignIn = GoogleSignIn(scopes: ['email']);

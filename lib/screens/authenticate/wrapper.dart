@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 
 
 class Wrapper extends StatelessWidget {
-  get googleUser => null;
+
 
   @override
   Widget build(BuildContext context) {
-    if (googleUser == null) {
+    if (user== null) {
       return Authenticate();
     } else {
       return Home();
