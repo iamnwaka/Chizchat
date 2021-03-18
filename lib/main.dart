@@ -1,19 +1,21 @@
-import 'package:chizchat/screens/authenticate/wrapper.dart';
-import 'package:chizchat/screens/services/auth.dart';
+import 'package:chizchat/screens/welcome/welcome_screen.dart';
+import 'package:chizchat/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
-void main() => runApp(MyApp());
-
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return StreamProvider.value(
-       value: AuthService().currentUser,
-      child: MaterialApp(
-        home: Wrapper(),
-      ),
+    return MaterialApp(
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: lightThemeData(context),
+      darkTheme: darkThemeData(context),
+      home: WelcomeScreen(),
     );
   }
 }
