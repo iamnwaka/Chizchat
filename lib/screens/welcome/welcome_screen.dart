@@ -1,5 +1,5 @@
-import 'package:chat/constants.dart';
-import 'package:chat/screens/signinOrSignUp/signin_or_signup_screen.dart';
+import 'package:chizchat/constants.dart';
+import 'package:chizchat/screens/signinOrSignUp/signin_or_signup_screen.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -13,7 +13,7 @@ class WelcomeScreen extends StatelessWidget {
             Image.asset("assets/images/welcome_image.png"),
             Spacer(flex: 3),
             Text(
-              "Welcome to our freedom \nmessaging app",
+              "Welcome to our freedomchitchat \nmessaging app",
               textAlign: TextAlign.center,
               style: Theme.of(context)
                   .textTheme
@@ -22,7 +22,7 @@ class WelcomeScreen extends StatelessWidget {
             ),
             Spacer(),
             Text(
-              "Freedom talk any person of your \nmother language.",
+              "Chitchat talk any person of your \nmother language.",
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Theme.of(context)
