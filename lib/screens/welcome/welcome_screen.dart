@@ -13,7 +13,7 @@ class WelcomeScreen extends StatelessWidget {
             Image.asset("assets/images/welcome_image.png"),
             Spacer(flex: 3),
             Text(
-              "Welcome to our freedomchitchat \nmessaging app",
+              "Welcome to our chitchat \nmessaging app",
               textAlign: TextAlign.center,
               style: Theme.of(context)
                   .textTheme
@@ -22,7 +22,7 @@ class WelcomeScreen extends StatelessWidget {
             ),
             Spacer(),
             Text(
-              "Chitchat talk any person of your \nmother language.",
+              "Chitchat talk to any person of your \nmother language.",
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Theme.of(context)

@@ -37,8 +37,9 @@ class _ChatsScreenState extends State<ChatsScreen> {
         });
       },
       items: [
-        BottomNavigationBarItem(icon: Icon(Icons.messenger), label: "Chats"),
+        BottomNavigationBarItem(icon: Icon(Icons.messenger_outline_outlined), label: "Chats"),
         BottomNavigationBarItem(icon: Icon(Icons.people), label: "People"),
+         BottomNavigationBarItem(icon: Icon(Icons.camera), label: "Status"),
         BottomNavigationBarItem(icon: Icon(Icons.call), label: "Calls"),
         BottomNavigationBarItem(
           icon: CircleAvatar(
