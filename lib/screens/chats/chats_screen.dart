@@ -12,18 +12,20 @@ class _ChatsScreenState extends State<ChatsScreen> {
   int _selectedIndex = 1;
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: buildAppBar(),
-      body: Body(),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        backgroundColor: kPrimaryColor,
-        child: Icon(
-          Icons.person_add_alt_1,
-          color: Colors.white,
+    return SafeArea(
+      child: Scaffold(
+        appBar: buildAppBar(),
+        body: Body(),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          backgroundColor: kPrimaryColor,
+          child: Icon(
+            Icons.person_add_alt_1,
+            color: Colors.white,
+          ),
         ),
+        bottomNavigationBar: buildBottomNavigationBar(),
       ),
-      bottomNavigationBar: buildBottomNavigationBar(),
     );
   }
 
